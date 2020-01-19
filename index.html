@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My Personal Site </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Bootstrap 4 Dropdowns within a Navbar</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+         <script type="text/javascript" src='js/main.js'> </script>
+
+    </head>
+    <body>
+ <!-- navbar -->  
+ <!-- navbar -->  
+        
+    <nav class="navbar navbar-expand-md navbar-light bg-light" style = "background-color:red;">
+    <a href="#" class="navbar-brand"> </a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link active" >Home</a>
+            <a href="#" class="nav-item nav-link" data-value="about" >About Me</a>
+            <a href="#" class="nav-item nav-link" data-value = "portfolio">Project/Skills</a>
+            <a href="#" class="nav-item nav-link" data-value= "classes">Coursework</a>
+            <a href="#" class="nav-item nav-link" data-value="contact" >Contact Me</a>
+
+        </div>
+     
+    </div>
+</nav>
+
+<header class="header " id = "home">
+   <div class="container">
+   	  <div class="description ">
+           <h1 style = "font-family: cursive;font-size: 200px;"> Hello! </h1>
+          <h3 style = "font-style: italic;font-family: fantasy"> My name is Sheena, I am a student at the University of Georgia majoring in Statistics and Computer Science. I will be graduating in May 2020, and I am looking for opportunities in software development and full stack web development.  <br > <button type="button"  class="btn btn-primary btn-lg"><a href = "#about" style = "padding-right: 30px;">About Me</a></button>
+
+          </h3>
+
+       </div>
+       
+
+    </div>
+</header>
+
+        <hr>
+    
+    <div class="row about" id = "about">
+   <div class="col-lg-4 col-md-4 col-sm-12">
+    <img src="IMG_3427.jpeg" class="img-fluid">
+    <span class="text-justify">Statistics/Computer Science Student at the University of Georgia </span>
+   </div>
+   <div class="col-lg-8 col-md-8  desc">
+     
+    <h3 style ="font-family: cursive">Sheena Pradeep</h3>
+    <p>
+    I am a senior at UGA, finishing up my Computer Science and Statistics degrees. I have experience working in languages such as Java, C++, PHP, R and SQL. I am searching for full-time opportunities in May after I graduate, and am excited to apply the skills I have gained through my undergraduate career in a professional setting. Just a little about me; I am from Woodstock, Georgia, and am the oldest out of three. I enjoy all things Disney, and love watching movies! 
+    <br > <button type="button"  class="btn btn-primary btn-lg"><a href = "#portfolio" style = "padding-right: 30px;">Project Experience</a></button>
+
+</p>
+    
+
+   </div>
+  </div>
+                <hr>
+
+        <!-- portfolio -->
+<div class="portfolio" id = "portfolio">
+     <h1 class="text-center"> </h1>
+        <div class="container">
+            <div class="row">            
+          
+        
+                <div>
+            <h1 style = font-family:cursive> My Project Experience </h1>
+
+            <h4 style = "font-family: cursive"> List Implementations:</h4>
+                <ul> 
+                    <li> Sorted Linked List in C++</li>
+                    <li> Doubly Linked List in C++</li>
+                    <li> Generic Implementation of List in Java </li>
+                </ul>
+                </div>
+                
+            <div class = "container">
+            <h4 style = "font-family: cursive"> GUI Applications</h4>
+                <ul> 
+                    <li> Checkers in Java </li>
+                    <li> Breakout in Java </li>
+                    <li> Gallery Application in Java </li> <span style="padding-left: 20px;"> - Created an application that searches for albums and artists based on the search parameter.  </span> 
+                    
+                </ul>
+                </div >
+                <div class = "container">
+                <h4 style = "font-family: cursive"> Logic Applications</h4>
+                <ul> 
+                    <li> Minesweeper in Java </li>
+                    <li> Game of Fifteen in C++ </li>
+                </ul>
+                </div>
+                <div class = "container">
+                <h4 style = "font-family: cursive"> Software Projects </h4>
+                        <ul> 
+                    <li> Cinema E-Booking System </li>
+                    <span style="padding-left: 20px;"> - I worked with three other students to build the system, using PHP, SQL, HTML, CSS and JS.</span>
+                             <li> Library Search System </li>
+                    <span style="padding-left: 20px;"> - I worked with three other students to create an uWSGI application that could search for books and libraries in a library location. The application included workign with JSON data, JQuery, SQL and Python.</span>   
+                </ul>
+      <br > <button type="button"  class="btn btn-primary btn-lg"><a href = "#classes" style = "padding-right: 30px;">My Coursework</a></button>
+
+                </div> 
+    
+
+
+        </div>
+     
+
+    </div>
+   
+
+ 
+</div>
+                <hr>
+
+    <div class = "classes" id = "classes">
+        <div class = "row"> 
+            <div class = "container">
+                <h1 style = "font-family: cursive"> Coursework </h1>
+
+  <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Class Name</th>
+      <th scope="col">Description</th>
+    
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th >Stat 4210</th>
+      <td>Statistical Methods</td>
+    </tr>
+      <tr>
+      <th >STAT 4220</th>
+      <td>Applied Experimental Designs</td>
+    </tr>
+      <tr>
+      <th >STAT 4230 </th>
+      <td>Applied Regression Analysis</td>
+    </tr>
+      <tr>
+      <th >Stat 4510</th>
+      <td>Mathematical Statistics I</td>
+    </tr>
+    <tr>
+      <th >CSCI 1301</th>
+      <td>Intro to Programming in Java</td>
+    </tr>
+      <tr>
+      <th >CSCI 1302</th>
+      <td>Software Development</td>
+    </tr>
+      <tr>
+      <th >CSCI 1730</th>
+      <td>Systems Programming</td>
+    </tr>
+      <tr>
+      <th>CSCI 2720</th>
+      <td>Data Structures</td>
+    </tr>
+      <tr>
+      <th >CSCI 2610</th>
+      <td>Discrete Mathematics</td>
+    </tr>
+      <tr>
+      <th >CSCI 3030</th>
+      <td>Computing Ethics and Society</td>
+    </tr>
+      <tr>
+      <th >CSCI 4050</th>
+      <td>Web Programming</td>
+    </tr>
+      <tr>
+      <th >STAT 501OW</th>
+      <td>Statistical Capstone I</td>
+    </tr>
+  
+  </tbody>
+</table>
+    
+                <h1 style = "font-family: cursive"> Classes in Progress </h1>
+                <table class = "table table-dark">
+                    <thead>
+    <tr>
+      <th scope="col">Class Name</th>
+      <th scope="col">Description</th>
+    
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th >CSCI 4810</th>
+      <td>Computer Graphics</td>
+    </tr>
+      <tr>
+      <th >CSCI 4060</th>
+      <td>Mobile Software Development</td>
+    </tr>
+      <tr>
+      <th > CSCI 4760</th>
+      <td>Computer Networks</td>
+    </tr>
+      <tr>
+      <th >STAT 5020W</th>
+      <td>Mathematical Statistics II</td>
+    </tr>
+                    </tbody>
+            </table>
+  
+            
+            </div>
+        </div>
+                      <br > <button type="button"  class="btn btn-primary btn-lg"><a href = "#contact" style = "padding-right: 30px;align-content: center;">Contact Me</a></button>
+
+        </div>
+
+        
+    <script>
+        $(document).ready(function(){
+        $('.header').height($(window).height());
+ 
+         })
+        $(".navbar a").click(function(){
+    $("body,html").animate({
+    scrollTop:$("#" + $(this).data('value')).offset().top
+    },1000)
+  
+ })
+        </script>
+        <hr>
+<div class = "contact" id = "contact">
+        <div class = "row"> 
+            <div class = "container">
+                <h1 style = "font-family: cursive"> Contact Me </h1>        
+                <object width = "800" height="400" data="Pradeep_Sheena_%20Resume.pdf#toolbar=0"></object>
+        </div>
+    </div>
+                              <br > <button type="button"  class="btn btn-primary btn-lg"><a href = "#home" style = "padding-right: 30px;align-content: center;">Home</a></button>
+
+        </div>
+    </body>
+
+</html>

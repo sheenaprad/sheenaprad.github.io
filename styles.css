@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("chris-nguyen-background.jpg");
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.arrow {
+  position: fixed;
+  right: 25px;
+  top: 450px;
+}
+#line {
+  height: 2px;
+  width: 500px;
+  background-color: white;
+}
+
+.introduction {
+  color: white;
+  font-size: 30px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about {
+  height: 400px;
+}
+.navbar-brand {
+  color: white;
+  margin-left: 10px;
+}
+.nav-item .nav-link,
+.navbar .nav-brand {
+  color: white;
+}
+
+.navbarstyle {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(15, 40, 61, 0.579);
+  color: white;
+}
+
+.sectionHeader {
+  font-size: 35px;
+  height: 50px;
+  width: fit-content;
+  letter-spacing: 1.2px;
+  color: white;
+  font-weight: 700;
+  margin-top: 30px;
+  border-bottom: solid 2px white;
+}
+
+#about .content {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  height: 400px;
+}
+
+#about .content p {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 0.5px;
+  width: 70%;
+}
+
+#about .content .photo {
+  width: 20%;
+  margin-left: 40px;
+}
+
+img {
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#skills {
+  height: 500px;
+}
+
+#skills .content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 900px;
+  margin-top: 30px;
+  height: 450px;
+  flex-wrap: wrap;
+  margin-left: 150px;
+  color: white;
+}
+
+.skill {
+  flex: 0 0 33.333333333%;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  border-radius: 10%;
+}
+
+.skill ul li {
+  list-style-type: none;
+}
+
+.listHeader {
+  font-size: 23px;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+#projects {
+  height: 750px;
+  color: white;
+}
+
+#projectList {
+  margin-top: 20px;
+}
+
+.item {
+  width: 90%;
+}
+
+.footer {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(15, 40, 61, 0.579);
+}
+
+.icons {
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+}
+.icons div a {
+  text-decoration: none;
+  color: white;
+}
+.icons a:hover {
+  color: black;
+}
+
+.credit {
+  font-size: 10px;
+  color: white;
+}
